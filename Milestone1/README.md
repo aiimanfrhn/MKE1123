@@ -1,4 +1,6 @@
 # Milestone 1 
+STM32 Familiarization
+
 # Team Member (Group 2): 
 
 1. Yvonne Wong Liang Liang
