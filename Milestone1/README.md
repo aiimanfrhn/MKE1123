@@ -1,3 +1,5 @@
+#How to modify the program
+
 To modify the program, open the main.c file. 
 In the main function which is the beginning of the program, within the while (1) loop, add the code to blink the LED. 
 In the while loop, the program will be executed in a repetition mode. ST’s hardware abstraction layer (HAL) makes controlling of some of the peripherals in the microcontroller. 
