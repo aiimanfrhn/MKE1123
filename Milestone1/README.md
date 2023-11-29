@@ -1,4 +1,12 @@
-# How to program blinky
+# Milestone 1 
+# Team Member (Group 2): 
+
+1. Yvonne Wong Liang Liang
+2. Koay Yi Yun
+3. Aiman Farhan
+
+
+# How to Program Blinky (STM32)
 
 To modify the program, open the main.c file. 
 In the main function which is the beginning of the program, within the while (1) loop, add the code to blink the LED. 
