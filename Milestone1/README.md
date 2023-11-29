@@ -1,4 +1,4 @@
-#How to modify the program
+# How to modify the program
 
 To modify the program, open the main.c file. 
 In the main function which is the beginning of the program, within the while (1) loop, add the code to blink the LED. 
