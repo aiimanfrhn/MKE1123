@@ -30,5 +30,7 @@ There’s library functions that were used to initialize the system clocks and v
 Then, under the ‘Run’ column, build and launch a debug session. Wait for the configuration to complete and the status of the debugging can be viewed through the console. 
 When the process completes and reflects a success status, the LED2 on the board starts to blink. 
 
+https://github.com/aiimanfrhn/MKEL1123/assets/144196538/0eb89e1f-a2ec-4e61-a354-a57c4891d838
+
 # Link
 https://www.youtube.com/watch?v=diDKnxnd_Go
