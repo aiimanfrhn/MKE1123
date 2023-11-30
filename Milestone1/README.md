@@ -7,7 +7,7 @@ STM32 Familiarization
 2. Koay Yi Yun
 3. Aiman Farhan
 
-# Nucleo-F446RE
+# Introduction
 Nucleo-F446RE is a 32-bit microcontroller that uses ARM Cortex M-4 processor. The Integrated Development Environment (IDE) used to program the microcontroller is STM32CubeIDE. 
 STM32CubeIDE incorporates STM32 configuration and offers multiple features and functionalities for user experience. 
 It supports C/C++ language including standard and advanced debugging features. The STM32CubeIDE can be downloaded from the website and the ST-Link Debugger must be downloaded as well in order to load the program into the microcontroller. 
@@ -30,6 +30,7 @@ There’s library functions that were used to initialize the system clocks and v
 Then, under the ‘Run’ column, build and launch a debug session. Wait for the configuration to complete and the status of the debugging can be viewed through the console. 
 When the process completes and reflects a success status, the LED2 on the board starts to blink. 
 
+# Video
 https://github.com/aiimanfrhn/MKEL1123/assets/144196538/0eb89e1f-a2ec-4e61-a354-a57c4891d838
 
 # Link
