@@ -56,7 +56,7 @@ int __io_putchar(int ch)
 }
 
 // Override plot function
-void max30100_plot(uint32_t ir_sample, uint32_t red_sample)
+void max30100_plot(uint16_t ir_sample, uint16_t red_sample)
 {
     // printf("ir:%u\n", ir_sample);                  // Print IR only
     // printf("r:%u\n", red_sample);                  // Print Red only
