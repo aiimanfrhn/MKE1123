@@ -12,7 +12,7 @@ extern "C"
  * @param ir_sample
  * @param red_sample
  */
-__weak void max30100_plot(uint32_t ir_sample, uint32_t red_sample)
+__weak void max30100_plot(uint16_t ir_sample, uint16_t red_sample)
 {
     UNUSED(ir_sample);
     UNUSED(red_sample);
@@ -28,8 +28,8 @@ void max30100_init(max30100_t *obj, I2C_HandleTypeDef *hi2c)
 {
     obj->_ui2c = hi2c;
     obj->_interrupt_flag = 0;
-    memset(obj->_ir_samples, 0, max30100_SAMPLE_LEN_MAX * sizeof(uint32_t));
-    memset(obj->_red_samples, 0, max30100_SAMPLE_LEN_MAX * sizeof(uint32_t));
+    memset(obj->_ir_samples, 0, max30100_SAMPLE_LEN_MAX * sizeof(uint16_t));
+    memset(obj->_red_samples, 0, max30100_SAMPLE_LEN_MAX * sizeof(uint16_t));
 }
 
 /**

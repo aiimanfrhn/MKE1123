@@ -119,7 +119,7 @@ typedef struct max30100_t
     uint8_t _interrupt_flag;
 } max30100_t;
 
-void max30100_plot(uint32_t ir_sample, uint32_t red_sample);
+void max30100_plot(uint16_t ir_sample, uint16_t red_sample);
 
 void max30100_init(max30100_t *obj, I2C_HandleTypeDef *hi2c);
 void max30100_write(max30100_t *obj, uint8_t reg, uint8_t *buf, uint16_t buflen);
